@@ -6,7 +6,7 @@
 `   `
 #values
 ### style.xml
-```
+```XML
 <resources>
 
     <!-- Base application theme. -->
