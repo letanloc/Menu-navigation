@@ -31,7 +31,7 @@
 
 ```
 ###color.xml
-```
+```XML
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
@@ -39,7 +39,7 @@
 </resources>
 ```
 ###attrs.xml
-``` 
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="fitsSystemWindows">true</bool>
@@ -52,7 +52,7 @@
 ```
 #layout
 ###main.xml
-```
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -112,7 +112,7 @@
 </android.support.v4.widget.DrawerLayout>
 ```
 ###header.xml
-```
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -170,7 +170,7 @@
 ```
 #menu
 ###navigation.xml
-``` 
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -219,7 +219,7 @@
 ```
 ##* Phần Java  *
 #main.java
-``` 
+```java
 package com.loc.template;
 
 import android.app.FragmentTransaction;
